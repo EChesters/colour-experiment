@@ -1,0 +1,25 @@
+body {
+  background-color: #990100; }
+
+.navbar-default {
+  background-color: #990100;
+  color: #333333;
+  border: none; }
+  .navbar-default button[type="submit"] {
+    background-color: transparent;
+    color: #333333;
+    border: 2px solid #333333;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #333333; }
+
+.navbar-form {
+  margin-bottom: 0; }
+
+.logo {
+  height: 20px; }
+
+/*# sourceMappingURL=red.css.map */

@@ -1,0 +1,38 @@
+// Red Colour Palette
+$white: 			#F6F6F6;
+$grey:				#E8E8E8;
+$black:				#333333;
+$dark-red:			#990100;
+$red:				#B90504;
+
+
+body {
+	background-color: $dark-red;
+}
+
+.navbar-default {
+	background-color: $dark-red;
+	color: $black;
+	border: none;
+
+	button[type="submit"] {
+		background-color: rgba(0,0,0, 0);
+		color: $black;
+		border: 2px solid $black;
+		padding-left: 30px;
+		padding-right: 30px;
+		border-radius: 0;
+	}
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: $black;
+}
+
+.navbar-form {
+	margin-bottom: 0;
+}
+
+.logo {
+	height: 20px;
+}
