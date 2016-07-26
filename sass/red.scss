@@ -36,3 +36,9 @@ body {
 .logo {
 	height: 20px;
 }
+
+div.well {
+	background-color: $red;
+	border: darken($red, 90%);
+	color: $white;
+}
