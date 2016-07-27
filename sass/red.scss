@@ -7,7 +7,7 @@ $red:				#B90504;
 
 
 body {
-	background-color: $dark-red;
+	background-color: $grey;
 }
 
 .navbar-default {
@@ -41,4 +41,9 @@ div.well {
 	background-color: $red;
 	border: darken($red, 90%);
 	color: $white;
+}
+
+.carousel-inner {
+	height: 500px;
+	overflow: hidden;
 }

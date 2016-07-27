@@ -1,5 +1,5 @@
 body {
-  background-color: #990100; }
+  background-color: #E8E8E8; }
 
 .navbar-default {
   background-color: #990100;
@@ -26,5 +26,9 @@ div.well {
   background-color: #B90504;
   border: black;
   color: #F6F6F6; }
+
+.carousel-inner {
+  height: 500px;
+  overflow: hidden; }
 
 /*# sourceMappingURL=red.css.map */
