@@ -31,4 +31,14 @@ div.well {
   height: 500px;
   overflow: hidden; }
 
+.btn.btn-outline-primary {
+  width: 100%;
+  border-radius: 0;
+  background-color: #B90504;
+  color: #F6F6F6;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .btn.btn-outline-primary:hover {
+    text-decoration: underline; }
+
 /*# sourceMappingURL=red.css.map */
