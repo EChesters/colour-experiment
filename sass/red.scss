@@ -43,9 +43,37 @@ div.well {
 	color: $white;
 }
 
-.carousel-inner {
+.item.active {
 	height: 500px;
 	overflow: hidden;
+
+	&:before {
+		content: '';
+		background: rgba(0,0,0, 0.3);
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+}
+
+.carousel {
+	border-bottom: 3px $dark-red solid;
+}
+
+.carousel-caption {
+	top: 10%;
+	left: 15%;
+	text-align: left;
+
+	h3 {
+		font-size: 3.5em;
+	}
+
+	p {
+		font-size: 2em;
+	}
 }
 
 .btn.btn-outline-primary {

@@ -27,9 +27,29 @@ div.well {
   border: black;
   color: #F6F6F6; }
 
-.carousel-inner {
+.item.active {
   height: 500px;
   overflow: hidden; }
+  .item.active:before {
+    content: '';
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+
+.carousel {
+  border-bottom: 3px #990100 solid; }
+
+.carousel-caption {
+  top: 10%;
+  left: 15%;
+  text-align: left; }
+  .carousel-caption h3 {
+    font-size: 3.5em; }
+  .carousel-caption p {
+    font-size: 2em; }
 
 .btn.btn-outline-primary {
   width: 100%;
