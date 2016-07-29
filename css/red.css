@@ -28,11 +28,6 @@ body {
 .logo {
   height: 20px; }
 
-div.well {
-  background-color: #B90504;
-  border: black;
-  color: #F6F6F6; }
-
 .item.active {
   height: 450px;
   overflow: hidden; }

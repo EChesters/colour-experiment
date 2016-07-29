@@ -44,12 +44,6 @@ body {
 	height: 20px;
 }
 
-div.well {
-	background-color: $red;
-	border: darken($red, 90%);
-	color: $white;
-}
-
 .item.active {
 	height: 450px;
 	overflow: hidden;

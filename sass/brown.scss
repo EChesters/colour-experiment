@@ -1,0 +1,102 @@
+// Brown Colour Palette
+
+$white: 			#FCFBE3;
+$coffee: 			#A2825C;
+$cappuccino:		#8E5B3E;
+$black:				#333333;
+$coffee-light:		#BEA586;
+$coffee-dark:		#674941;
+
+body {
+	background-color: $white;
+}
+
+.navbar-default {
+	background-color: $coffee-dark;
+	color: $white;
+	border: none;
+
+	button[type="submit"] {
+		background-color: $coffee;
+		color: $white;
+		border: none;
+		padding-left: 30px;
+		padding-right: 30px;
+		border-radius: 0;
+	}
+}
+
+.navbar-default .navbar-nav>.active>a {
+	color: $white;
+	background-color: $coffee;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: $white;
+}
+
+.navbar-form {
+	margin-bottom: 0;
+}
+
+.logo {
+	height: 20px;
+}
+
+h3 {
+	color: $coffee-dark;
+}
+
+.btn.btn-outline-primary {
+	width: 100%;
+	border-radius: 0;
+	background-color: $coffee;
+	color: $white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.container {
+	padding-top: 60px;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.carousel-inner {
+	height: 450px;
+	overflow: hidden;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+
+    h4, h4 a {
+    	white-space: nowrap;
+    	color: $coffee-dark;
+    }
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+
+    &.caption-full {
+        padding: 9px;
+    	color: #333;
+    }
+}
