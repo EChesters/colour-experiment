@@ -1,0 +1,104 @@
+@import "_partials/_mixins";
+
+// Brown Colour Palette
+$white: 			#FFFFFF;
+$blue: 				#8AB3CF;
+$light-blue:		#BDD1DE;
+$dark-blue:			#4180AB;
+
+body {
+	background-color: $white;
+}
+
+.navbar-default {
+	background-color: $dark-blue;
+	color: $white;
+	border: none;
+
+	button[type="submit"] {
+		background-color: $blue;
+		color: $white;
+		border: none;
+		padding-left: 30px;
+		padding-right: 30px;
+		border-radius: 0;
+	}
+}
+
+.navbar-default .navbar-nav>.active>a {
+	color: $white;
+	background-color: $blue;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: $white;
+}
+
+.navbar-form {
+	margin-bottom: 0;
+}
+
+.logo {
+	height: 20px;
+}
+
+.item.active {
+	height: 500px;
+	overflow: hidden;
+
+	&:before {
+		content: '';
+		background: rgba(0,0,0, 0.3);
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+}
+
+.carousel {
+	border-bottom: 3px $dark-blue solid;
+}
+
+.carousel-caption {
+	top: 10%;
+	left: 15%;
+	text-align: left;
+
+	h2 {
+		font-size: 3.5em;
+	}
+
+	p {
+		font-size: 2em;
+		font-weight: 200;
+	}
+}
+
+h3 {
+	color: $dark-blue;
+}
+
+.btn.btn-outline-primary {
+	width: 100%;
+	border-radius: 0;
+	background-color: $blue;
+	color: $white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+button {
+	img {
+		height: 15px;
+	}
+}
+
+.navbar-form .form-control {
+	@include border-radius(0);
+}
