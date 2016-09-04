@@ -1,7 +1,6 @@
 body {
   background-color: #E8E8E8;
-  max-height: 100vh;
-  overflow: hidden; }
+  padding-bottom: 30px; }
 
 .navbar-default {
   background-color: #B90504;
