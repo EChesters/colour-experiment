@@ -1,0 +1,109 @@
+@import "_partials/_mixins";
+
+// Red Colour Palette
+$white: 			#F6F6F6;
+$grey:				#E8E8E8;
+$black:				#333333;
+$dark-yellow:		#977d0d;
+$yellow:			#FCD116;
+
+
+body {
+	background-color: $grey;
+}
+
+.navbar-default {
+	background-color: $yellow;
+	color: $black;
+	border: none;
+
+	button[type="submit"] {
+		background-color: $dark-yellow;
+		color: $white;
+		border: none;
+		padding-left: 30px;
+		padding-right: 30px;
+		border-radius: 0;
+	}
+}
+
+.navbar-default .navbar-nav>.active>a {
+	color: $white;
+	background-color: $dark-yellow;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: $dark-yellow;
+}
+
+.navbar-form {
+	margin-bottom: 0;
+}
+
+.logo {
+	height: 20px;
+	color: $dark-yellow;
+}
+
+.item.active {
+	height: 450px;
+	overflow: hidden;
+
+	&:before {
+		content: '';
+		background: rgba(0,0,0, 0.3);
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+}
+
+.carousel {
+	border-bottom: 3px $dark-yellow solid;
+}
+
+.carousel-caption {
+	top: 10%;
+	left: 15%;
+	text-align: left;
+
+	h2 {
+		font-size: 3.5em;
+	}
+
+	p {
+		font-size: 2em;
+		font-weight: 200;
+	}
+}
+
+h3 {
+	color: $dark-yellow;
+	padding: 15px 0;
+}
+
+.btn.btn-outline-primary {
+	width: 100%;
+	border-radius: 0;
+	background-color: $yellow;
+	color:$white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 16px;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+button {
+	img {
+		height: 15px;
+	}
+}
+
+.navbar-form .form-control {
+	@include border-radius(0);
+}
