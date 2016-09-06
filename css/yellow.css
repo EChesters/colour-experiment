@@ -24,7 +24,7 @@ body {
   margin-bottom: 0; }
 
 .logo {
-  height: 20px;
+  font-size: 20px;
   color: #977d0d; }
 
 .item.active {
@@ -53,14 +53,13 @@ body {
     font-weight: 200; }
 
 h3 {
-  color: #977d0d;
   padding: 15px 0; }
 
 .btn.btn-outline-primary {
   width: 100%;
   border-radius: 0;
   background-color: #FCD116;
-  color: #F6F6F6;
+  color: #977d0d;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 16px; }
