@@ -25,3 +25,8 @@ body {
 .margin-top {
   margin-top: 60px;
 }
+
+.btn.btn-outline-primary {
+  width: 40%;
+  float: right;
+}
