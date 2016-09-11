@@ -1,0 +1,12 @@
+@import "_partials/_mixins";
+
+// Brown Colour Palette
+$white: 			#FCFBE3;
+$coffee: 			#A2825C;
+$black:				#333333;
+$coffee-light:		#BEA586;
+$coffee-dark:		#674941;
+
+body {
+	background-color: $white;
+}
