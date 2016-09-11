@@ -3,7 +3,11 @@ body {
 
 .navbar-inner, .navbar .btn-navbar {
   background: none;
-  background-color: #A2825C; }
+  background-color: #A2825C;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0; }
 
 .navbar .nav > li > a {
   color: #FCFBE3; }
@@ -53,6 +57,10 @@ select.srchTxt {
 
 #mainBody {
   border-color: #A2825C; }
+
+.full-width {
+  width: 100%;
+  height: 650px; }
 
 #footerSection {
   background: #674941; }
