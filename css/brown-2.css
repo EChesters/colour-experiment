@@ -1,4 +1,14 @@
 body {
-  background-color: #FCFBE3; }
+  background-color: #fff; }
+
+.navbar-inner, .navbar .btn-navbar {
+  background: none;
+  background-color: #A2825C; }
+
+.navbar .nav > li > a {
+  color: #fff; }
+
+.badge-warning {
+  background-color: #674941; }
 
 /*# sourceMappingURL=brown-2.css.map */
