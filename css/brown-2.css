@@ -6,9 +6,55 @@ body {
   background-color: #A2825C; }
 
 .navbar .nav > li > a {
-  color: #fff; }
+  color: #FCFBE3; }
+
+.navbar-search select.srchTxt, #srchFld {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  border: none; }
+
+select.srchTxt {
+  outline: 1px inset #FCFBE3;
+  outline-offset: -1px;
+  height: 41px; }
+
+#srchFld {
+  padding: 10px 15px; }
+
+#header, #myCarousel {
+  background-color: #674941; }
 
 .badge-warning {
-  background-color: #674941; }
+  background-color: #A2825C;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0; }
+
+.btn, .btn-primary {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  background: none;
+  background-color: #FFE5BD;
+  text-shadow: none;
+  color: #674941; }
+
+.btn-primary {
+  font-size: 1.1em;
+  padding: 10px 15px; }
+
+.span6 {
+  color: #fff;
+  font-size: 1.1em; }
+
+#mainBody {
+  border-color: #A2825C; }
+
+#footerSection {
+  background: #674941; }
 
 /*# sourceMappingURL=brown-2.css.map */

@@ -4,7 +4,8 @@
 $white: 			#FCFBE3;
 $coffee: 			#A2825C;
 $black:				#333333;
-$coffee-light:		#BEA586;
+$coffee-light:		#D9AE7A;
+$coffee-lighter:	#FFE5BD;
 $coffee-dark:		#674941;
 
 body {
@@ -17,9 +18,56 @@ body {
 }
 
 .navbar .nav>li>a {
-	color: #fff;
+	color: $white;
+}
+
+.navbar-search select.srchTxt, #srchFld {
+	@include border-radius(0);
+	border: none;
+}
+
+select.srchTxt{
+	outline: 1px inset $white; 
+	outline-offset: -1px;
+	height: 41px;
+}
+
+#srchFld {
+	padding: 10px 15px;
+}
+
+#header, #myCarousel {
+	background-color: $coffee-dark;
 }
 
 .badge-warning {
-	background-color: $coffee-dark;
+	background-color: $coffee;
+	@include border-radius(0);
+}
+
+.btn {
+	@include border-radius(0);
+	background: none;
+	background-color: $coffee-lighter;
+	text-shadow: none;
+	color: $coffee-dark;
+}
+
+.btn-primary {
+	@extend .btn;
+	font-size: 1.1em;
+	padding: 10px 15px;
+}
+
+.span6 {
+	color: #fff;
+	font-size: 1.1em;
+}
+
+#mainBody {
+	border-color: $coffee;
+}
+
+#footerSection {
+	background: $coffee-dark;
 }
